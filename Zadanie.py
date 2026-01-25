@@ -72,7 +72,7 @@ with tabs[0]:
         else:
             st.warning("Najpierw dodaj przynajmniej jedną kategorię!")
 
-# --- TAB 2: PRZEGLĄDANIE DANYCH ---
+# --- TAB 2: PRZEGLĄDANIE DANYCH --
 with tabs[1]:
     st.subheader("Lista Produktów (z Kategoriami)")
     query = """
